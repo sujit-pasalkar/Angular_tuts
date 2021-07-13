@@ -4,13 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {
-  // routes = [
-  //   {
-  //     path:'home', loadChildren:
-  //   }
-  // ];
-}
+export class SecondRoutingModule { }

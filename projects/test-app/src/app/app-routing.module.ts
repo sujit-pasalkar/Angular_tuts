@@ -7,10 +7,4 @@ const routes: Routes = [];
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {
-  // routes = [
-  //   {
-  //     path:'home', loadChildren:
-  //   }
-  // ];
-}
+export class AppRoutingModule { }
